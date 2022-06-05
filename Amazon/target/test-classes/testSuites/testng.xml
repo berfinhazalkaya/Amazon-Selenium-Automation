@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Amazon" verbose="1" >
+    <!--LCWaikiki Suite'in altına testlerimizi yerleştiriyouz.-->
+    <parameter name="browser"  value="Chrome"/>
+    <test name="Cart Page" >
+        <!--testimize isim verdik-->
+        <classes>
+            <class name="Runner.runner"/>
+            <!--Runner klasörünün altındaki runner dosyasını çalıştır-->
+        </classes>
+    </test>
+</suite>
